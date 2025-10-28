@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contenido lateral con Flexbox</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .contenedor {
+      display: flex; 
+      height: 100vh; 
+    }
+    .lateral {
+      background-color: #7bd4f7;
+      flex: 1;
+      display: flex;
+      justify-content:left;
+      align-items: left;
+      font-weight: bold;
+    }
+    .principal {
+      background-color: #c5e2dd;
+      flex: 3; 
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <div class="lateral">contenido lateral</div>
+    <div class="principal">Esto sería el contenido principal</div>
+  </div>
+</body>
+</html>

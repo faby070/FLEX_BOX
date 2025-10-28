@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjeta de presentación</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .tarjeta {
+      background-color: white;
+      width: 300px;
+      border: 1px solid #ccc;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .tarjeta-header {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+    }
+    .tarjeta-cuerpo {
+      padding: 70px;
+      flex: 1;
+      text-align: left;
+    }
+    .tarjeta-footer {
+      background-color: gray;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="tarjeta">
+    <div class="tarjeta-header">Tarjeta de presentación</div>
+    <div class="tarjeta-cuerpo">Contenido del cuerpo de la tarjeta</div>
+    <div class="tarjeta-footer">Pie de la tarjeta</div>
+  </div>
+</body>
+</html>

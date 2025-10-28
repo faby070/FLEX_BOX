@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caja centrada con Flexbox</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .contenedor {
+      background-color: aquamarine;
+      height: 70vh;
+      width: 70vh;
+      display: flex;
+      justify-content: center; 
+      align-items: center;    
+    }
+    .caja {
+      background-color: black;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      height: 11vh;
+      width: 12vh;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <div class="caja">
+      Hola soy una caja<br>
+      totalmente centrada
+    </div>
+  </div>
+</body>
+</html>
